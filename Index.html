@@ -1,0 +1,102 @@
+      <!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Registration and Login</title>
+
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID">
+
+</head>
+
+<body>
+
+  <div>
+
+    <h1>Registration</h1>
+
+    <form>
+
+      <label for="name">Name:</label>
+
+      <input type="text" id="name" name="name" required>
+
+      <br>
+      <label for="email">Email:</label>
+
+      <input type="email" id="email" name="email" required>
+
+      <br>
+
+      <label for="password">Password:</label>
+
+      <input type="password" id="password" name="password" required>
+
+      <br>
+
+      <input type="button" value="Register" onclick="register()">
+
+    </form>
+
+  </div>
+
+  <div>
+
+    <h1>Login</h1>
+
+    <form>
+
+      <label for="email">Email:</label>
+
+      <input type="email" id="email" name="email" required>
+
+      <br>
+      <label for="password">Password:</label>
+
+      <input type="password" id="password" name="password" required>
+
+      <br>
+
+      <input type="button
+<input type="button" value="Login" onclick="login()">
+
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+    </form>
+
+  </div>
+
+  <script>
+
+    function register() {
+
+      // code to handle registration process
+
+      // such as sending data to the server and storing in the database
+
+    }
+
+    function login() {
+
+      // code to handle login process
+
+      // such as checking credentials against the database
+
+    }
+
+    function onSignIn(googleUser) {
+
+      // code to handle login with Google
+
+      // such as getting user data and sending to the server
+
+    }
+
+  </script>
+
+</body>
+
+</html>
